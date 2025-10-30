@@ -1,10 +1,10 @@
 check50:
   checks:
-    hello world:
+    hello world check:
       - run: python3 hello.py
         stdout: Hello, CS50 world!
         exit: 0
-    goodbye world:
+    goodbye world check:
       - run: python3 goodbye.py
         stdout: Goodbye, CS50 world!
         exit: 0
